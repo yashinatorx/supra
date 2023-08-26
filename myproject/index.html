@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cars</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box ;
+        }
+        #super{
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            perspective: 10px;
+            background-color: black;
+        }
+        .models{
+            position: relative;
+            height: 700px; 
+            transform-style: preserve-3d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: -1;
+        }
+        .background{
+            transform: translateZ(-40px) scale(3); 
+            
+        }
+        h1{
+            color: white;
+            z-index: -1;
+            position: absolute;
+            top: 250px;
+            font-size: 100px;
+            background:linear-gradient(to top right, red,blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent ;
+        }
+        section{
+            background-color: rgb(0, 0, 0);
+            color: pink;
+            padding:10px;
+        }
+        .pqr{
+            font-size: 70px;
+            padding: 10px;
+        }
+        .xyz{
+            font-size: 25px;
+            margin: 10px;
+            padding: -10px;
+        }
+
+        .bg{
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+
+        }
+        .bg1{
+            background-image: url(supra.jpg);
+        }
+        .bg2{
+            background-image: url(lamborghini.jpg);
+        }
+        .bg3{
+            background-image: url(ferrari.jpg);
+        }
+        .text{
+            position: absolute;
+            color:white;
+            background:linear-gradient(to top right, green,rgb(0, 247, 255));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            top: 150px;
+            left: 700px;
+            padding: 0.5rem 2.5rem;
+            font-size: 70px;
+            transform: translateX(-50%) translateX(-50%);
+        }
+        #zumba{
+            position: absolute;
+            left: 80%;
+            color: green;
+        }
+        #yoga{
+            position: absolute;
+            left: 94%;
+            font-size: 15px;
+        color: green;
+        }
+        #www{
+            position: absolute;
+            left: 87%;
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="super">
+        <div class="models">
+            <img src="background.jpg" class="background">
+            <h1>TOP CARS</h1>
+        </div>
+    </div>
+    <section>
+        <h2 class="pqr">Cars Time</h2>
+        <p class="xyz">
+         A sports car is a car designed with an emphasis on dynamic performance, such as handling, acceleration, top speed, the thrill of driving and racing capability. Sports cars originated in Europe in early 1902 and are currently produced by many manufacturers around the world.
+        <br> <br>
+        sports-car racing, form of motor racing involving cars built to combine aspects of racing and touring cars. Although there are many conflicting definitions of sports cars, it is usually conceded that in normal production form they do not resemble Grand Prix (Formula One) racing machines. Whereas the latter is a single-seat design carrying spartan cockpit furnishings and utterly functional equipment throughout, the sports car is usually a two-seater, sometimes a four-seater, characterized by its nimble abilities (if not speed and power) together with general suitability for high-speed touring on ordinary roads. Unlike a Grand Prix car, it is usually series-produced, seldom handmade. Some manufacturers of Grand Prix machines, such as Ferrari and Lotus, also make sports cars. Other makes include MG, Jaguar, Aston Martin, Austin-Healey, Triumph, Porsche, Lancia, Morgan, and Chevrolet Corvette.
+        </p>
+    <div class="bg bg1">
+        <h3 class="text">SUPRA</h3>
+    </div>
+         <p class="xyz">
+        The Toyota Supra (Japanese: トヨタ・スープラ, Hepburn: Toyota Sūpura) is a sports car and grand tourer manufactured by the Toyota Motor Corporation beginning in 1978. The name "supra" is derived from the Latin prefix, meaning "above", "to surpass" or "go beyond".[3]
+        <br> <br>
+        The initial four generations of the Supra were produced from 1978 to 2002. The fifth generation has been produced since March 2019 and went on sale in May 2019.[4] The styling of the original Supra was derived from the Toyota Celica, but it was both longer and wider.[5] Starting in mid-1986, the A70 Supra became a separate model from the Celica. In turn, Toyota also stopped using the prefix Celica and named the car Supra.[6] Owing to the similarity and past of the Celica's name, it is frequently mistaken for the Supra, and vice versa. The first, second and third generations of the Supra were assembled at the Tahara plant in Tahara, Aichi, while the fourth generation was assembled at the Motomachi plant in Toyota City. The 5th generation of the Supra is assembled alongside the G29 BMW Z4 in Graz, Austria by Magna Steyr.
+        <a href="https://en.wikipedia.org/wiki/Toyota_Supra" id="www" target="_blank">~Read more </a> 
+
+    </p>
+        
+    <div class="bg bg2">
+        <h3 class="text">LAMBORGHINI</h3>
+    </div>
+    <p class="xyz">
+     Manufacturing magnate Italian Ferruccio Lamborghini founded the company in 1963 with the objective of producing a refined grand touring car to compete with offerings from established marques such as Ferrari. The company's first models, such as the 350 GT, were released in the mid-1960s. Lamborghini was noted for the 1966 Miura sports coupé, which used a rear mid-engine, rear-wheel drive layout
+    <br> <br>
+    Lamborghini grew rapidly during its first ten years, but sales fell in the wake of the 1973 worldwide financial downturn and the oil crisis. Ferruccio Lamborghini sold the company to Georges-Henri Rossetti and René Leimer and retired in 1974. The company went bankrupt in 1978, and was placed in the receivership of brothers Jean-Claude and Patrick Mimran in 1980. The Mimrans purchased the company out of receivership by 1984 and invested heavily in its expansion. Under the Mimrans' management, Lamborghini's model line was expanded from the Countach to include the Jalpa sports car and the LM002 high-performance off-road vehicle.
+    <a href="https://en.wikipedia.org/wiki/Lamborghini" id="yoga" target="_blank">~Read more </a> 
+</p>
+    <div class="bg bg3">
+        <h3 class="text">FERRARI </h3>
+        
+    </div>
+    <p class="xyz">
+    Ferrari has a rich racing history and is a well known premium automobile brand. The fastest street Ferrari is the F50 GT1, which can go over 370 kph (about 222 mph). The most powerful Ferrari is the FXX, which has about 800 horsepower. The FXX is a lighter, improved version of the F60 Enzo; it is Ferrari's most exclusive model. It is basically a race car that you can buy from Ferrari. The automobile is so extreme (completely flat tires, low ride height, and no roadcar safety features such as Airbags) that it cannot be driven on roads legally. Ferrari will keep it for you at their Factory in Maranello in Italy.
+    <br> <br> 
+    Thirty have been built and all but two were sold to customers for $2,500,000 each. Ferrari gave one to seven-time Formula 1 World Champion Michael Schumacer, who had driven for Ferrari for ten years when he retired in 2006, having brought Ferrari much success. Ferrari made his FXX different by painting it black. The other twenty-nine are either red or white, with stripes painted in the other colour.
+   <a href="https://en.wikipedia.org/wiki/Ferrari" id="zumba" target="_blank">~Read more </a> 
+</p>
+    </section>
+       
+
+    
+</body>
+</html>
