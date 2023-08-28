@@ -16,10 +16,12 @@
             overflow-y: auto;
             perspective: 10px;
             background-color: black;
+            width: 100%;
         }
         .models{
             position: relative;
-            height: 700px; 
+            height: 700px;
+            width: 100%; 
             transform-style: preserve-3d;
             display: flex;
             justify-content: center;
@@ -36,8 +38,10 @@
             position: absolute;
             top: 250px;
             font-size: 100px;
-            
-            
+            background:linear-gradient(to top right, red,blue);
+            background-clip: text;
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent ;
         }
         section{
             background-color: rgb(0, 0, 0);
@@ -73,14 +77,18 @@
             background-image: url(ferrari.jpg);
         }
         .text{
-            position: absolute;
+           position:absolute;
             color:white;
-            
-            top: 150px;
-            left: 700px;
+            background:linear-gradient(to top right, green,rgb(0, 247, 255));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            top: 50%;
+            left: 70%;
             padding: 0.5rem 2.5rem;
             font-size: 70px;
             transform: translateX(-50%) translateX(-50%);
+           
         }
         #zumba{
             position: absolute;
@@ -98,10 +106,27 @@
             left: 87%;
             color: green;
         }
+       .uys{ 
+        position:absolute;
+            color:white;
+            background:linear-gradient(to top right, green,rgb(0, 247, 255));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            top: 50%;
+            left: 70%;
+            padding: 0.5rem 2.5rem;
+            font-size: 70px;
+            transform: translateX(-50%) translateX(-50%);
+            
+        }
+
+       
         
     </style>
 </head>
 <body>
+    
     <div id="super">
         <div class="models">
             <img src="background.jpg" class="background">
@@ -127,7 +152,7 @@
     </p>
         
     <div class="bg bg2">
-        <h3 class="text">LAMBORGHINI</h3>
+        <h3 class="uys">LAMBORGHINI</h3>
     </div>
     <p class="xyz">
      Manufacturing magnate Italian Ferruccio Lamborghini founded the company in 1963 with the objective of producing a refined grand touring car to compete with offerings from established marques such as Ferrari. The company's first models, such as the 350 GT, were released in the mid-1960s. Lamborghini was noted for the 1966 Miura sports coupé, which used a rear mid-engine, rear-wheel drive layout
@@ -146,6 +171,7 @@
    <a href="https://en.wikipedia.org/wiki/Ferrari" id="zumba" target="_blank">~Read more </a> 
 </p>
     </section>
+
        
 
     
